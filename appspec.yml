@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:026090546401:task/jamoon/23dbfbc51b8243088873f0e7c15be78b"
+        TaskDefinition: "arn:aws:ecs:us-east-1:026090546401:task-definition/java-spring:1"
         LoadBalancerInfo:
-          ContainerName: "demo1"
+          ContainerName: "java-spring"
           ContainerPort: 8080
